@@ -1,0 +1,90 @@
+[
+    {
+        "funcType": 0,
+        "weight": 6,
+        "funcName": "查询统计",
+        "funcCode": "09",
+        "funcAlias": " ",
+        "url": "/"
+    },
+    {
+        "funcType": 0,
+        "weight": 11,
+        "funcName": "同步对账",
+        "funcCode": "17",
+        "funcAlias": " ",
+        "url": "/"
+    },
+    {
+        "funcType": 0,
+        "weight": 5,
+        "funcName": "业务管理",
+        "funcCode": "04",
+        "funcAlias": " ",
+        "url": "/"
+    },
+    {
+        "funcType": 0,
+        "weight": 4,
+        "funcName": "终端管理",
+        "funcCode": "05",
+        "funcAlias": " ",
+        "url": "/"
+    },
+    {
+        "funcType": 0,
+        "weight": 9,
+        "funcName": "LBS配置",
+        "funcCode": "15",
+        "funcAlias": " ",
+        "url": "/"
+    },
+    {
+        "funcType": 0,
+        "weight": 10,
+        "funcName": "套餐管理",
+        "funcCode": "16",
+        "funcAlias": " ",
+        "url": "/"
+    },
+    {
+        "funcType": 0,
+        "weight": 7,
+        "funcName": "企业首页管理",
+        "funcCode": "13",
+        "funcAlias": " ",
+        "url": "/"
+    },
+    {
+        "funcType": 0,
+        "weight": 8,
+        "funcName": "广东联通",
+        "funcCode": "14",
+        "funcAlias": " ",
+        "url": "/"
+    },
+    {
+        "funcType": 0,
+        "weight": 1,
+        "funcName": "系统管理",
+        "funcCode": "01",
+        "funcAlias": " ",
+        "url": "/"
+    },
+    {
+        "funcType": 0,
+        "weight": 3,
+        "funcName": "企业方案管理",
+        "funcCode": "12",
+        "funcAlias": " ",
+        "url": "/"
+    },
+    {
+        "funcType": 0,
+        "weight": 2,
+        "funcName": "集团用户管理",
+        "funcCode": "03",
+        "funcAlias": " ",
+        "url": "/"
+    }
+]
