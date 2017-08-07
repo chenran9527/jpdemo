@@ -28,19 +28,41 @@
     <div class="row-fluid content-height">
         <div class="col-sm-3 col-md-2 col-lg-2 content-left">
             <ul class="nav nav-pills nav-stacked nav-sidebar">
-                <li ng-repeat="func in funcs | orderBy:'funcCode'" class="active" ng-click="clickNav(in)">
-                    <a href="#">{{func.funcName}}</a></li>
+                <li ng-repeat="menu in menuArr | orderBy:'menuSort'" ng-class="{active: current === $index}" ng-click="clickNav($index)">
+                    <a href="#">{{menu.menuName}}</a></li>
             </ul>
         </div>
         <div class="col-sm-9 col-md-10 col-lg-10 content-right" >
             <div id="right-content-container" class="content-container">
-                <ul class="nav nav-tabs">
-                    <li id="nav_li_{{win.funcCode}}" ng-repeat="win in winArr" ng-class="{'active': win.funcCode==current}" class="nvl_li_oper">
-                        <a href="#" ng-click="switchOperWin(win.url,win.funcCode)" style="display: inline-block;">
-                            {{win.funcName}}&nbsp;&nbsp;<span class="close" data-dismiss="nvl_li_oper" ng-click="closeWin(win.funcCode)" aria-hidden="true">&times;</span>
-                        </a></li>
+                <ul class="nav nav-tabs nav-justified second-menu-ul">
+                    <li class="active dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                           aria-haspopup="true" aria-expanded="false">Prb0002<span class="caret"></span></a>
+                        <ul class="dropdown-menu third-menu-ul">
+                            <li><a href="#">Problem Summary</a></li>
+                            <li><a href="#">View Check Result</a></li>
+                            <li><a href="#">View Healing Result</a></li>
+                        </ul></li>
+                    <li><a href="#">Prb0003</a></li>
+                    <li><a href="#">Prb0004</a></li>
                 </ul>
+                <div class="content-div">
+                    <!--<div>-->
+                        <!--<ul class="nav nav-pills">-->
+                            <!--<li class="active"><a href="#">Problem Summary</a></li>-->
+                            <!--<li><a href="#">View Check Result</a></li>-->
+                            <!--<li><a href="#">View Healing Result</a></li>-->
+                        <!--</ul>-->
+                    <!--</div>-->
+                    <ol class="breadcrumb path_nav">
+                        <li><a href="#">View Check API</a></li>
+                        <li><a href="#">Prob0002</a></li>
+                        <li class="active">Problem Summary</li>
+                    </ol>
+                    <div>
 
+                    </div>
+                </div>
             </div>
         </div>
     </div>

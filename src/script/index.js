@@ -2,7 +2,7 @@
  * 	@classDescription: 桌面控制js程序(基于angularjs)
  * 	@author: chenran
  * 	@version: 1.0
- *  @date: 2015-12-04
+ *  @date: 2017-08-04
  * */
 
 
@@ -20,7 +20,7 @@ app.controller('desktopCtrl', function($scope, $http) {
     $http({ cache: false, url: "config/func.json", method: 'GET'})
         .then(
             function success(response) {
-                $scope.funcs = response.data;
+                $scope.menuArr = response.data;
                 //alert(data);
             },
             function error(response){
@@ -35,7 +35,7 @@ app.controller('desktopCtrl', function($scope, $http) {
     };
 
     /**打开窗口的信息数组*/
-    $scope.winArr = [];
+    $scope.menuArr = [];
     /**当前显示窗口的funcCode*/
     $scope.current = 0;
 

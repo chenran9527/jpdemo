@@ -54,5 +54,10 @@ body {
 
 .content-right {background:#666666;height: 100%;}
 .content-container {width: 100%;height: 100%;background: #ffffff;padding: 5px;overflow-y: auto;}
-.content-container .content-div {width: 100%;border: 1px solid #ddd;border-top:none;overflow-y: auto;}
-.content-container .content-div .content-div-iframe {width: 100%; height: 100%;}
+.content-container .content-div {width: 100%;height:100%;border: 1px solid #ddd;border-top:none;overflow-y: auto;}
+/*.second-menu-ul {background: #E7E7E7;}*/
+.active1 {background:#EFAD4D;}
+
+.third-menu-ul {width:100%;}
+
+.path_nav{margin-top: 10px;}
