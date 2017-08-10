@@ -52,28 +52,18 @@ body {
 
 .content-height,.content-left {height:100%;}
 
-.content-right {background:#666666;height: 100%;overflow: hidden}
-.right-main{background: #ffffff;height: 100%;}
-.right-header {width: 100%;height: 18%;padding: 5px;overflow-y: auto;min-height: 163px;}
-/*.content-header .content-div {width: 100%;}*/
+.content-right {background:#666666;height: 100%;}
+.content-container {width: 100%;height: 100%;background: #ffffff;padding: 5px;overflow-y: auto;}
+.content-container .content-div {width: 100%;overflow-y: auto;}
 
 .tracking_div {border: 1px solid #cccccc;border-top:none;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
 
 .third-menu-ul {width:100%;padding: 30px;}
 .third-menu-ul li {border: 1px solid #dddddd;border-radius: 4px;background-color: #e1e1e1;}
 
-.right-body {height: 80%;border: 1px solid #cccccc;margin: 0 5px;border-radius: 5px;}
-.path-nav{margin-top: 10px;height: 5%;min-height: 36px;max-height: 36px;margin-bottom: 10px;}
-.right-content-div{height: 90%;}
-.im-div {height: 100%;border: 0px solid;margin-left:25px;}
-.im-content{width: 350px; border:1px solid #00aff0;height: 100%;background:url("icon/icon-im-bg.png");background-position-y: -100px; }
-.im-msg{height: 75%;}
-.im-dlg{height: 25%; background:#ffffff; }
-.im-dlg .toolbar{height: 10%;min-height: 35px;border-bottom: #f2f2f2 1px solid;}
-.im-dlg .toolbar .send{float: right;padding: 6px 20px 0 30px;background: url("icon/icon-send.png") no-repeat;background-position-y: 8px;color:#13BEEC;cursor: pointer}
-.im-dlg .im-txt{width: 96% ; height: 75%;margin-left: 5px; border-bottom: 1px solid #f2f2f2; }
-
-.detail-ul {height: 90%;overflow-y: auto;}
+.detail-div {border: 1px solid #cccccc;margin-top: 10px;border-radius: 5px;}
+.path-nav{margin-top: 10px;}
+/*.detail-ul {overflow-y: auto;}*/
 .detail-ul li{width: 100%;border-bottom: 2px dotted #d5d5d5;list-style: none;margin: 10px 0 0 -20px;}
 .detail-ul li .section {margin-bottom: 5px;min-height: 150px;}
 .detail-ul li .section .section-top {text-align: center;color:#FF9900;}
