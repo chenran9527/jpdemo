@@ -66,19 +66,27 @@ body {
 .path-nav{margin-top: 10px;height: 5%;min-height: 36px;max-height: 36px;margin-bottom: 10px;}
 .right-content-div{height: 90%;}
 .im-div {height: 100%;border: 0px solid;margin-left:25px;}
-.im-content{width: 350px; border:1px solid #00aff0;height: 100%;background:url("icon/icon-im-bg.png");background-position-y: -100px; }
-.im-msg{height: 75%;}
+.im-content{width: 350px; border:1px solid #00aff0; border-radius:5px 5px 0 0;height: 100%;background:url("icon/icon-im-bg.png");background-position-y: -100px;}
+.im-msg{height: 75%; overflow-y: auto;}
+.im-msg .msg-content{margin-top: 10px;}
+.im-msg .msg_from {margin: 0 30px 0 10px;padding: 10px;border-radius: 25px; border-bottom-left-radius: 0px;border-top-left-radius: 45px;border: 1px solid #cccccc;background: #ffffff;}
+.im-msg .msg_from .section-top {text-align: center;color:#FF9900;}
+.im-msg .msg_from p {font-size: 16px;font-weight: 300;max-width: 500px;margin: 0 auto;color:#FF9900;}
+.im-msg .msg_from .info {text-align: right;margin: 5px 5px 0 0;}
+.im-msg .msg_from .info a{font-size: 14px;font-weight: 300;color:#0080FF; text-decoration-line: underline;}
+.im-msg .msg_from .info a:hover{color: #FF0000;}
+
+.im-msg .msg_to {margin: 0 10px 0 30px;padding: 10px;border-radius: 25px; border-bottom-right-radius: 0px;border-top-right-radius: 45px;border: 1px solid #4cae4c;background: #5cb85c; color: #fff;}
+.section {margin-bottom: 5px;min-height: 150px;}
+
 .im-dlg{height: 25%; background:#ffffff; }
 .im-dlg .toolbar{height: 10%;min-height: 35px;border-bottom: #f2f2f2 1px solid;}
 .im-dlg .toolbar .send{float: right;padding: 6px 20px 0 30px;background: url("icon/icon-send.png") no-repeat;background-position-y: 8px;color:#13BEEC;cursor: pointer}
 .im-dlg .im-txt{width: 96% ; height: 75%;margin-left: 5px; border-bottom: 1px solid #f2f2f2; }
 
-.detail-ul {height: 90%;overflow-y: auto;}
-.detail-ul li{width: 100%;border-bottom: 2px dotted #d5d5d5;list-style: none;margin: 10px 0 0 -20px;}
-.detail-ul li .section {margin-bottom: 5px;min-height: 150px;}
-.detail-ul li .section .section-top {text-align: center;color:#FF9900;}
-.detail-ul li .section p {font-size: 16px;font-weight: 300;max-width: 500px;margin: 0 auto;color:#FF9900;}
-
+.detail-div {height: 100%;margin-left: -100px;border: 1px solid #999999;position: relative;}
+.detail-div .detail-arrow {width:32px;height: 64px;background: url('icon/icon-arrow-left.png') no-repeat #fff;background-position-y: center;display: inline-block;margin-left: -92px; top:40%;position: absolute;}
+.detail-div .detail-step {width:100%;height: 100%;margin-left: -5px;display: inline-block;}
 
 .steps-td-icon {position: relative;
     top: 1px;
